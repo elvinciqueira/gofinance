@@ -12,7 +12,7 @@ export const Title = styled.h1`
   font-weight: 500;
   font-size: 36px;
   line-height: 54px;
-  color: #363f5f;
+  color: #6272a4;
   text-align: center;
 `;
 
@@ -42,7 +42,7 @@ export const Footer = styled.section`
   }
 
   button {
-    background: #ff872c;
+    background: #04d361;
     color: #fff;
     border-radius: 5px;
     padding: 15px 80px;
@@ -50,7 +50,7 @@ export const Footer = styled.section`
     transition: background-color 0.2s;
 
     &:hover {
-      background: ${shade(0.2, '#ff872c')};
+      background: ${shade(0.2, '#04d361')};
     }
   }
 `;

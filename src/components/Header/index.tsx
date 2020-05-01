@@ -17,7 +17,7 @@ const Header: React.FC<HeaderProps> = ({ size = 'large' }: HeaderProps) => (
       <nav>
         <NavLink
           activeStyle={{
-            borderBottom: 'solid 2px #FF872C',
+            borderBottom: 'solid 2px #50fa7b',
             paddingBottom: '8px',
           }}
           exact
@@ -27,7 +27,7 @@ const Header: React.FC<HeaderProps> = ({ size = 'large' }: HeaderProps) => (
         </NavLink>
         <NavLink
           activeStyle={{
-            borderBottom: 'solid 2px #FF872C',
+            borderBottom: 'solid 2px #50fa7b',
             paddingBottom: '8px',
           }}
           to="/import"
